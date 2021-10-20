@@ -1,0 +1,15 @@
+import Monstruos.*
+import Torres.*
+import Tiros.*
+import wollok.game.*
+import Config.*
+
+program juego {
+	game.title("Juego Falopa")
+	game.height(12)
+	game.width(15)
+	game.boardGround("fondoInicio.jpg")
+	//keyboard.enter().onPressDo{ configuracion.pantallaJuego() }
+	//configuracion.pantallaInicio()
+	game.start()
+}
